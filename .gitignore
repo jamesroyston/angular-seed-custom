@@ -5,3 +5,7 @@ app/lib/
 tmp
 .DS_Store
 .idea
+info
+objects
+refs
+package-lock.json

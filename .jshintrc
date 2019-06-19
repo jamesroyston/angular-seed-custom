@@ -1,0 +1,11 @@
+{
+  "strict": "global",
+  "globals": {
+    // AngularJS
+    "angular": true,
+
+    // AngularJS mocks
+    "module": true,
+    "inject": true
+  }
+}

@@ -1,6 +1,6 @@
 # `tweaked angular-seed using mocha/chai/sinon and puppeteer`
 
-Clone this whenever you want to bootstrap an AngularJS(1.x) project for experimentation or learning. For example, I needed this for quick bootstrapping without having to always switch jasmine for mocha, puppeteer for firefox, etc.
+Clone this whenever you want to bootstrap an AngularJS(1.x) project for experimentation or learning. For example, I needed this for quick sandbox environments without having to always switch jasmine for mocha, puppeteer for firefox, etc.
 
 How to get started:
 ```

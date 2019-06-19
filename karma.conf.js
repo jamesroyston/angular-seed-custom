@@ -48,7 +48,16 @@ module.exports = function (config) {
       'karma-sinon'
     ],
 
-    logLevel: config.LOG_INFO,
+    // level of logging
+    // possible values: config.LOG_DISABLE || config.LOG_ERROR || config.LOG_WARN || config.LOG_INFO || config.LOG_DEBUG
+    logLevel: config.LOG_DEBUG,
+    
+    // captures console.log and sends to terminal
+    browserConsoleLogOptions: {
+        level: 'log',
+        format: '%b %T: %m',
+        terminal: true
+    }
 
     singleRun: true,
 

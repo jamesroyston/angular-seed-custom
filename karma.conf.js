@@ -57,7 +57,7 @@ module.exports = function (config) {
         level: 'log',
         format: '%b %T: %m',
         terminal: true
-    }
+    },
 
     singleRun: true,
 
